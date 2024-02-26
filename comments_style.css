@@ -1,0 +1,36 @@
+
+
+
+/* Go wild editing these, do whatever you like.   */
+
+.header > * {
+  padding: 0.5em;
+}
+
+.username {
+  font-size: smaller;
+  font-weight: bold;
+  color: blue;
+}
+
+.username.mod {
+  color: green;
+}
+
+.footer {
+  color: #888;
+  font-weight: bold;
+  font-size: smaller;
+
+}
+
+.comments {
+  flex-direction: column;
+  padding-left: 1em;
+}
+
+.comment {
+  margin: 0.5em;
+  padding: 2px;
+  flex-direction: column;
+}

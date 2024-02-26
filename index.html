@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Page</title>
+  <script defer src="/dropdown_controller.js"></script>
+  <script src="/your_code_here.js"></script>
+  <script src="/datas.js"></script>
+  <link rel="stylesheet" href="/framework_style.css">
+  <link rel="stylesheet" href="/comments_style.css">
+</head>
+<body>
+  <div class="toplevel left">
+    <div class="datapicker">
+      <form>
+        <select id="pickadataset">
+          <option>-- choose one --</option>
+        </select>
+      </form>
+    </div>
+    <div class="dataeditor">
+      <textarea id="viewthedata">
+      </textarea>
+    </div>
+  </div>
+  <div class="toplevel right">
+    <div id="target" class="comments"></div>
+  </div>
+</body>
+</html>
